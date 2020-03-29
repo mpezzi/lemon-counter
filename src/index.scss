@@ -1,0 +1,18 @@
+$swatch-1: #363636;
+$swatch-2: #EEBA0B;
+$swatch-3: #242F40;
+$swatch-4: #E5E5E5;
+$swatch-5: #FFFFFF;
+
+$body-bg: $swatch-2;
+$body-color: $swatch-1;
+$primary: $swatch-3;
+
+@import '~bootstrap/scss/bootstrap.scss';
+
+html,
+body,
+body > div#root {
+  width: 100%;
+  height: 100%;
+}
